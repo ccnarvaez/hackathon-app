@@ -18,12 +18,15 @@ export const AddAdmin = () => {
 	}
 
 	return (
-		<Form>
-			<FormLabel>Agregar nuevo administrador</FormLabel>
-			<FormControl onChange={(e) => setAdminEmail(e.target.value)}
-			type="email"
-			placeholder="Ingresa un correo aquí"/>
-			<Button onClick={(e) => onSubmitHandle(e)}>Agregar</Button>
-		</Form>
+
+		<>
+			<h2 className="profile"> Agregar nuevo administrador</h2>
+			<Form>
+				<FormControl onChange={(e) => setAdminEmail(e.target.value)}
+				type="email"
+				placeholder="Ingresa un correo aquí"/>
+				<Button onClick={(e) => onSubmitHandle(e)}>Agregar</Button>
+			</Form>
+		</>
 	)
 }

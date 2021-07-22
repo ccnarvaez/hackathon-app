@@ -1,6 +1,9 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
+const message = () =>{
 
+  return(alert('Su solicitud será validada por el usuario administrador'));
+}
 
 const SignIn = () => {
 
@@ -53,7 +56,7 @@ const SignIn = () => {
                 />
                 <br></br>
                 
-              <button className="login-btn">
+              <button className="login-btn" onClick = {message}>
                 Guardar
               </button>
               <br></br>

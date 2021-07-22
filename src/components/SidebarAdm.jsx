@@ -5,12 +5,12 @@ const SidebarAdm = () => {
 
     return (
         <div className="sidebar"> 
-        <label> Menu </label>
+        <h3 className="menu-options"> Menu </h3>
             <ul className=" side-list">
                 <li> <a href={`/dashboard/${usermail}`}> Dashboard </a> </li>
-                <li> <a href={`/userprofile/${usermail}`}> Perfil de usuario </a> </li>
+                <li> <a href='/userprofile/admins@everis.cl'> Perfil de usuario </a> </li>
                 <li> <a href={`/search/${usermail}`}> Buscar </a> </li>
-                <li> <a href="/newadmin"> Añadir nuevo administrador </a> </li>
+                <li> <a href={`/newadmin/${usermail}`}> Añadir nuevo administrador </a> </li>
             </ul>
         </div>
     )

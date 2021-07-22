@@ -42,6 +42,7 @@ const Login = () => {
           <div className="box">
             <Form className="form" >
               <Form.Group controlId="formBasicEmail">
+                <h5> Matriz de conocimientos </h5>
                 <div>
                   <Form.Label>Correo:</Form.Label>
                 </div>
