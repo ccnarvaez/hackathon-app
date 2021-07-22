@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ccnarvaez/hackathon-app/static/css/main.7fc7bc2e.chunk.css",
+    "main.js": "/ccnarvaez/hackathon-app/static/js/main.29ea5dec.chunk.js",
+    "main.js.map": "/ccnarvaez/hackathon-app/static/js/main.29ea5dec.chunk.js.map",
+    "runtime-main.js": "/ccnarvaez/hackathon-app/static/js/runtime-main.b9ed3bf5.js",
+    "runtime-main.js.map": "/ccnarvaez/hackathon-app/static/js/runtime-main.b9ed3bf5.js.map",
+    "static/js/2.9f544237.chunk.js": "/ccnarvaez/hackathon-app/static/js/2.9f544237.chunk.js",
+    "static/js/2.9f544237.chunk.js.map": "/ccnarvaez/hackathon-app/static/js/2.9f544237.chunk.js.map",
+    "static/js/3.97862a4d.chunk.js": "/ccnarvaez/hackathon-app/static/js/3.97862a4d.chunk.js",
+    "static/js/3.97862a4d.chunk.js.map": "/ccnarvaez/hackathon-app/static/js/3.97862a4d.chunk.js.map",
+    "index.html": "/ccnarvaez/hackathon-app/index.html",
+    "static/css/main.7fc7bc2e.chunk.css.map": "/ccnarvaez/hackathon-app/static/css/main.7fc7bc2e.chunk.css.map",
+    "static/js/2.9f544237.chunk.js.LICENSE.txt": "/ccnarvaez/hackathon-app/static/js/2.9f544237.chunk.js.LICENSE.txt",
+    "static/media/ever.00bca748.png": "/ccnarvaez/hackathon-app/static/media/ever.00bca748.png",
+    "static/media/logo.45c815c8.png": "/ccnarvaez/hackathon-app/static/media/logo.45c815c8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9ed3bf5.js",
+    "static/js/2.9f544237.chunk.js",
+    "static/css/main.7fc7bc2e.chunk.css",
+    "static/js/main.29ea5dec.chunk.js"
+  ]
+}
