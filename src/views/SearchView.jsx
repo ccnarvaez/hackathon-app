@@ -5,7 +5,9 @@ import Search from '../components/Search';
 export const SearchView =()=>{
     return <>
     <SignOut />
-    <Sidebar />       
+    <div className="search-container">
+    <Sidebar />
     <Search />
+    </div>
     </>
 }

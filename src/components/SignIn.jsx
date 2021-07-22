@@ -8,10 +8,10 @@ const SignIn = () => {
   return (
     
     <div className="mt-5">
-      <h6 className="text-top mt-9">
-        <p>Informacion sobre ti</p>
-        <p>Completa la siguiente informacion para crear tu perfil.</p>
-      </h6>
+      <div className="text-top mt-9">
+        <h2 className="profile">Informacion sobre ti</h2>
+        <h4 className="username">Completa la siguiente informacion para crear tu perfil.</h4>
+      </div>
       <hr />
       <div className="row justify-content-center">
         <div className="col-12 col-sm-8 col-md-6 col-xl-4">
@@ -53,9 +53,7 @@ const SignIn = () => {
                 />
                 <br></br>
                 
-              <button 
-                className="btn btn-dark btn-sm btn-block mb-2"
-                onClick="Guardar()">
+              <button className="login-btn">
                 Guardar
               </button>
               <br></br>

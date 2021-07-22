@@ -11,7 +11,6 @@ const Dashboard = () => {
      try{
         const data = await db.collection('oferta').get()
         const dataArray = data.docs.map((doc) => ({ id: doc.id, ...doc.data() }))
-        console.log(dataArray);
         setSkills(dataArray);
      }catch(err){
         console.log(err)
@@ -25,7 +24,7 @@ const Dashboard = () => {
       return(
           <>
               <div> 
-                <h1> Dashboard! </h1>
+                <h2 className="profile"> Dashboard </h2>
                 <ul>
                   {skills.map(item =>(
                     <li className="list-group-item" key = {item.id}> {item.Skills} </li>
