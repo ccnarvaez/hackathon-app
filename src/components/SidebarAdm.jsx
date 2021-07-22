@@ -8,7 +8,7 @@ const SidebarAdm = () => {
         <h3 className="menu-options"> Menu </h3>
             <ul className=" side-list">
                 <li> <a href={`/dashboard/${usermail}`}> Dashboard </a> </li>
-                <li> <a href='/userprofile/admins@everis.cl'> Perfil de usuario </a> </li>
+                <li> <a href='/userprofile/admins@everis.cl'> Perfil  </a> </li>
                 <li> <a href={`/search/${usermail}`}> Nuestros colaboradores </a> </li>
                 <li> <a href={`/newadmin/${usermail}`}> Añadir nuevo administrador </a> </li>
             </ul>
