@@ -44,7 +44,7 @@ export const AdminList = () => {
 			<div id="profile-btn">
               <Dropdown >
                 <Dropdown.Toggle className="login-btn" id="dropdown-basic">
-                  Validar 
+                  Team 
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
 				  <Dropdown.Item href='/userprofile/correo43@correo.com' > Diana Everis </Dropdown.Item>

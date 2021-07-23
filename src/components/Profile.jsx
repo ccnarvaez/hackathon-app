@@ -36,7 +36,7 @@ const Profile = () => {
   
   return(
   <>
-    <h2 className="profile"> Mi Perfil </h2>
+    <h2 className="profile"> Perfil </h2>
       {skills.map(item =>(
         <>
             <ul key = {item.id}>

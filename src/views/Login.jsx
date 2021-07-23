@@ -4,6 +4,7 @@ import { useHistory } from "react-router-dom";
 import { auth } from '../firebaseConfig';
 import logo from '../img/logo.png';
 import ever from '../img/ever.png';
+import { useParams } from "react-router-dom";
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -11,6 +12,7 @@ const Login = () => {
     const [msgerror, setMsgError] = useState(null);
     const style = { color: 'black' };
     let history = useHistory();
+    let { usermail } = useParams();
    
 
     const LoginUser = (e) => {

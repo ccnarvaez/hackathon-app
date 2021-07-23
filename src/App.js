@@ -36,8 +36,8 @@ function App() {
       </header>
       <Router>
         <Switch>
-          <ProtectedRoute path='/userprofile/admin@everis.cl' component={AdminProfile}/>
-          <ProtectedRoute path='/dashboard'component={HomeDashboard}/>
+          <ProtectedRoute exact path='/userprofile/admin@everis.cl' component={AdminProfile}/>
+          <ProtectedRoute path='/dashboard/:usermail'component={HomeDashboard}/>
           <ProtectedRoute path='/signin/:usermail'component={SignInUser}/>
           <ProtectedRoute path='/userprofile/:usermail'component={UserProfile}/>
           <ProtectedRoute path='/search/:usermail'component={SearchView}/>
