@@ -2,7 +2,7 @@
 import React from 'react';
 const message = () =>{
 
-  return(alert('Su solicitud será validada por el usuario administrador'));
+  return(alert('Su solicitud será validada por lider técnico'));
 }
 
 const SignIn = () => {
